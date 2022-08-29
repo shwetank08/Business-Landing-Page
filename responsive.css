@@ -1,0 +1,106 @@
+@media screen and (max-width: 1040px) {
+    .navitems{
+        display: none;
+    }
+    .header{
+        height: auto;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem 0rem;
+        gap: 0;
+    }
+    [alt="logo"]{
+        margin: 1rem 0rem;
+        margin-left: 0;
+    }
+    .textpart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .h-btn{
+        width: auto;
+        margin-left: 0;
+    }
+    .section-1-stats{
+        flex-wrap: wrap;
+    }
+    .section-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .top{
+        display: flex;
+        margin:1rem 0rem;
+        flex-wrap: wrap;
+    }
+    .part2{
+        margin:1rem 0rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .teams{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0rem;
+    }
+    [alt="person1"]{
+        width: auto;
+        height: 45vh;
+    }
+    [alt="person2"]{
+        width: auto;
+        height: 45vh;
+    }
+    [alt="person3"]{
+        width: auto;
+        height: 45vh;
+    }
+    .teams-b{
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer{
+        height: auto;
+        padding: 4rem 0rem;
+    }
+    [alt="footer-logo"]{
+        width: auto;
+        height: 6vh;
+    }
+    .footer-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-bottom{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}

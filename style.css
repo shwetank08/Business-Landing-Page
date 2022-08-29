@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4{
+    color: rgb(76 76 76);
+}
+.header{
+    background-color: #636c79;
+    height: 500px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+[alt="logo"]{
+    margin: 1rem 1rem;
+    width: 6rem;
+    height: 2.2rem;
+    margin-left: 8rem;
+}
+.navitems{
+    display: flex;
+    flex-direction: row;
+    margin: 0rem 4rem;
+}
+.nav-item{
+    list-style: none;
+    padding: 1rem .5rem;
+    color: #f5f5f5;
+    margin: 1rem 1rem;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 2rem 2rem;
+}
+.h-btn{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #adb2b2;
+    padding: 0.4rem 1rem;
+    width: 8rem;
+    margin-left: 3rem;
+    height: 2rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+.header-content img{
+    width: 300px;
+    height: 350px;
+}
+[alt="mail"]{
+    height: 1.5rem;
+    width: .5rem;
+}
+.btn-hc input{
+    border: none;
+}
+.btn-hc{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: .2rem 1rem;
+    margin: 2rem 0rem;
+    width: 320px;
+}
+.input-btn{
+    color: #ffffff;
+    background-color: #8bb7a2;
+    border: none;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+.textarea{
+    color: #ffffff;
+}
+.textarea p{
+    margin: 1rem 0rem;
+    color: #cfd2d5;
+}
+[alt=section1img]{
+    width: 60vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 29rem; */
+    margin-bottom: 2rem;
+}
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+}
+
+.section-1-heading{
+    text-align: center;
+    margin: 3rem 2rem;
+}
+.section-1-stats{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.s1{
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+}
+.s1 h5{
+    color: rgb(76 76 76);
+}
+.section-2{
+    padding: 2rem 2rem;
+    /* height: 500px; */
+}
+.section-2-heading{
+    text-align: center;
+    margin: 4rem 0rem;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 16rem;
+}
+[alt="card1"]{
+    width: 19rem;
+}
+[alt="card2"]{
+    width: 19rem;
+    height: 19rem;
+}
+[alt="card3"]{
+    width: 19rem;
+    height: 18rem;
+}
+.card-content h1,h4,button{
+    margin: 1rem 0rem;
+}
+.card-content button{
+    padding: .7rem 3rem;
+    background-color: #8bb7a2;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+.section-3{
+    padding: 2rem 2rem;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2rem 0rem;
+}
+
+.teams{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    margin: 0rem 8rem;
+}
+
+[alt="person1"]{
+    width: 20vw;
+    height: 45vh;
+}
+[alt="person2"]{
+    width: 20vw;
+    height: 45vh;
+}
+[alt="person3"]{
+    width: 20vw;
+    height: 45vh;
+}
+.teams-b{
+    background-color: #8bb7a2;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    /* padding: .8remrem; */
+    width: 8vw;
+    height: 6vh;
+    margin-left: 43rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.teams p{
+    color: rgb(76 76 76);
+}
+.footer{
+    background-color: #000000;
+    color: #ffffff;
+    height: 400px;   
+}
+.footer-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+[alt="footer-logo"]{
+    width: 8vw;
+    height: 6vh;
+}
+.footer-top{
+    border-bottom: 1px solid #adb2b2;
+    padding: 1rem 7rem;
+}
+.left{
+    margin: 1rem 0rem;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+}
+.right-icons{
+    margin: 1rem .5rem;
+    padding: .8rem 1rem;
+    border-radius: 50%;
+    background-color: #282f34;
+}
+.footer-bottom{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2rem 2rem;
+}
+.Links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Links p{
+    margin: 0.6rem 0rem;
+}
+.Links h5{
+    margin: 0.8rem 0rem;
+    font-size: 1.25rem;
+}
