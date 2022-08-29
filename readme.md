@@ -11,7 +11,7 @@
 
 ## Deployed Link
 
-[Link]()
+[Link](https://shwetank-businesslandingpage.netlify.app/)
 
 ## Tech Stack Used
 
